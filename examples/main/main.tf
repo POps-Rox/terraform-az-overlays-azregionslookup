@@ -20,7 +20,7 @@ variable "location" {
 # CREATE THE RG
 # ---------------
 module "mod_azure_region_lookup" {
-  source = "github.com/POps-Rox/terraform-az-overlays-azregionslookup"
+  source = "../../"
 
   azure_region = var.location
 }
